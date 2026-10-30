@@ -1,13 +1,13 @@
 {% set name = "multi_key_dict" %}
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 package:
   name: "{{ name|lower }}"
   version: "{{ version }}"
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: deebdec17aa30a1c432cb3f437e81f8621e1c0542a0c0617a74f71e232e9939e
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 34b0fece445cae0147f0dcd542290ec8cab83a800535890a6b7c615c0c779d08
 
 build:
   noarch: python
